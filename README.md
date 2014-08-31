@@ -11,11 +11,11 @@ The usual way to run my code is:
 
 - In the root folder: use the "run_jobs_in_folder.m" function which will execute all jobs in the experiment folder you gave. It runs the files in the "wait_jobs" folder, and once finish put them in the "end_jobs" folder. During execution, files are in the "run_jobs" folder. My jobs are saving results in a "results" foldder.
 
-- Once jobs are done, you can run the "analysis.m" script, which porcess the data and store them in an "analysis" folder.
+- Once jobs are done, you can run the "analysis.m" script, which process the data and store them in an "analysis" folder.
 
-- Finally, run the "plot_*.m" script to generates the plots, that should be saved in a "plots" folder if the corresponding lines are not connected.
+- Finally, run the "plot_*.m" script to generates the plots, that should be saved in a "plots" folder (if the corresponding lines are not commented).
 
-As you have understood this architected is made to be used with several instance of matlab on several computer. A simple, slighlty ugly, way is to synchonize your code folder using Dropbox or BitTorrentSync. It worked for me.
+As you have understood this architecture is made to be used with several instances of Matlab on several computers. A simple, slighlty ugly, way is to synchonize your code folder using Dropbox or BitTorrentSync. It worked for me.
 
 I am available by e-mail if you have question,
 Have fun!
