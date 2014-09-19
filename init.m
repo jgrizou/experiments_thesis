@@ -1,7 +1,8 @@
 [pathstr, ~, ~] = fileparts(mfilename('fullpath'));
 addpath(pathstr);
 addpath(genpath(fullfile(pathstr, '../lfui/')));
-addpath(genpath(fullfile(pathstr, '../datasets/')));
+addpath(genpath(fullfile(pathstr, '../matlab_tools/')));
+addpath(genpath(fullfile(pathstr, '../matlab_datasets/')));
 
 clear 'pathstr'
 
